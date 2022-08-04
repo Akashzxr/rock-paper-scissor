@@ -1,7 +1,9 @@
 @import url('http://fonts.cdnfonts.com/css/hiskyflipper');
+@import url('http://fonts.cdnfonts.com/css/science-project');
 body{
     margin: 0;
     background-color: rgb(58, 59, 62);
+    font-family: 'Science Project', sans-serif;
 }
 /*header section*/
 .header{
@@ -19,3 +21,44 @@ body{
 }
 
 /*result section*/
+.result-section{
+   color: white;
+   display: flex;
+   flex-direction:column;
+   gap: 50px;
+   padding-top: 36px;
+}
+.win-lose-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+}
+#win-text-1{
+    font-size: 30px;
+    font-weight: bold;
+}
+#win-text-2{
+    font-size: 19px;
+    font-weight: bold;
+}
+.score-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 132px;
+}
+.score-img-section-1,.score-img-section-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:23px;
+}
+.score-img{
+    font-size: 76px;
+}
+.score-text{
+    font-size: 20px;
+}
