@@ -1,0 +1,21 @@
+@import url('http://fonts.cdnfonts.com/css/hiskyflipper');
+body{
+    margin: 0;
+    background-color: rgb(58, 59, 62);
+}
+/*header section*/
+.header{
+    font-family: 'HISKYFLIPPERHIBOLD', sans-serif;
+    color: #5ef907;
+    background-color: rgb(44, 44, 44);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 139px;
+}
+.header div{
+    font-size: 48px;
+}
+
+/*result section*/
