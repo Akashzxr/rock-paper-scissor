@@ -6,6 +6,11 @@ body{
     font-family: 'Science Project', sans-serif;
 }
 /*header section*/
+.container{
+    display: flex;
+   flex-direction: column;
+   gap: 44px;
+}
 .header{
     font-family: 'HISKYFLIPPERHIBOLD', sans-serif;
     color: #5ef907;
@@ -26,7 +31,6 @@ body{
    display: flex;
    flex-direction:column;
    gap: 50px;
-   padding-top: 36px;
 }
 .win-lose-section{
     display: flex;
@@ -61,4 +65,28 @@ body{
 }
 .score-text{
     font-size: 20px;
+}
+
+/*player option section*/
+.player-options-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 28px;
+}
+.player-options-section button{
+    width: 160px;
+    height: 160px;
+    font-size: 80px;
+    border: none;
+    background-color: #5a5a5b;
+    border-radius: 10px;
+    box-shadow: 4px 5px 0px black;
+    transition: 0.3s;
+}
+.player-options-section button:hover{
+    background-color: #5a5a5b;
+    box-shadow: 2px 3px 0px black;
+    transform: translate(2%, 4%);
 }
