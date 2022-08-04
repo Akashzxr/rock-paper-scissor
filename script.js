@@ -102,7 +102,6 @@ function game(){
         c=0;
         player_score.textContent=p;
         computer_score.textContent=c;
-        
     }
     else if(c==5){
         alert("BETTER LUCK NEXT TIME! YOU LOSE");
@@ -112,3 +111,11 @@ function game(){
         computer_score.textContent=c;
     }
 }
+const audio = new Audio("https://www.fesliyanstudios.com/play-mp3/387");
+const buttons = document.querySelectorAll("button");
+
+buttons.forEach(button => {
+  button.addEventListener("click", () => {
+    audio.play();
+  });
+});
