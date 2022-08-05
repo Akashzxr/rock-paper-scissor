@@ -2,7 +2,7 @@
 body{
     margin: 0;
     background-color: rgb(58, 59, 62);
-    font-family: 'Science Project', sans-serif;
+    font-family: 'VT323', monospace;
 }
 /*header section*/
 .container{
@@ -54,11 +54,11 @@ body{
     gap: 18px;
 }
 #win-text-1{
-    font-size: 30px;
+    font-size: 45px;
     font-weight: bold;
 }
 #win-text-2{
-    font-size: 19px;
+    font-size: 26px;
     font-weight: bold;
 }
 .score-section{
@@ -78,7 +78,7 @@ body{
     font-size: 76px;
 }
 .score-text{
-    font-size: 20px;
+    font-size: 32px;
 }
 
 /*player option section*/
@@ -113,6 +113,7 @@ body{
     height: 50px;
     color: white;
     background-color: rgb(44, 44, 44);
+    font-size: 30px;
 }
 a{
     text-decoration: none;
