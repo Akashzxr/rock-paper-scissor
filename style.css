@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Quicksand&family=Roboto&display=swap');
 body{
     margin: 0;
     background-color: rgb(58, 59, 62);
@@ -10,7 +11,7 @@ body{
    gap: 44px;
 }
 .header{
-    font-family: 'HISKYFLIPPERHIBOLD', sans-serif;
+    font-family: 'Press Start 2P', cursive;
     color: #5ef907;
     background-color: rgb(44, 44, 44);
     display: flex;
