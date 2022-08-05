@@ -24,6 +24,8 @@ body{
     font-size: 48px;
     color: transparent;
     animation: effect 2s linear infinite;
+    flex-shrink: 1;
+    text-align: center;
 }
 
 @keyframes effect {
